@@ -1,19 +1,18 @@
 # Git_outta_town
-Heroku deployed link: "https://coding-bootcamp-project-1.herokuapp.com/index.html"
 
-## Collaborators
-* Eric: "https://github.com/ehickstein"
-* Mary: "https://github.com/mkat44"
-* Andre: "https://github.com/amcaron1"
-* Reece: "https://github.com/ReeceShadden"
-* Chase: "https://github.com/chaseholladay"
+## Description
+A travel application that makes API calls to provide users with sports, music, food, theater, and social events for a given city within a given date range.
 
 ## Concept
 Our original concept was a website where the user could get information about which locations around the US are the best place
 to live, based on certain criteria such as average temperature and crime rate. This idea morphed into our final idea, that of
 a travel website where the user could search a city, state, and date range, and it would bring up various pieces of
-information aobut the city, as well as a dynamically created table of different types of events going on around that city
+information about the city, as well as a dynamically create tables of different types of events going on around that city
 during that date range.
+
+## [Deployed Code](https://coding-bootcamp-project-1.herokuapp.com/index.html)
+
+## [GitHub Respository](https://github.com/amcaron1/Git_outta_town)
 
 ## Technologies
 We used many different libraries in our website, including...
@@ -45,4 +44,11 @@ was fully functioning and did not mess with anybody else's functions. For each o
 city name are dynamically created, and update their URLs when the "Search" button is pressed. The content within each 
 Collapsible header is created when that header is clicked, and is refreshed on the same click once the city is changed. They
 do not refresh when the search button is pressed because of some API limits, such as the tickermaster API, which only allows
-one call per 3 seconds, and it is used in more than one of the genres. 
+one call per 3 seconds. 
+
+## Collaborators
+* Eric: "https://github.com/ehickstein"
+* Mary: "https://github.com/mkat44"
+* Andre: "https://github.com/amcaron1"
+* Reece: "https://github.com/ReeceShadden"
+* Chase: "https://github.com/chaseholladay"
